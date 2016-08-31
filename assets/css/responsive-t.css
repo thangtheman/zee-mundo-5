@@ -1,0 +1,93 @@
+/*Responsive Media Querries for Tablet*/
+
+/*Ipad = 768 x 1024 */
+@media screen and (max-width: 1024px) {
+    #moviePosters {
+        background-size: 100%, cover;
+    }
+    .alignright {
+        float: left;
+    }
+    .rowModal {
+        height: 100%;
+    }
+    .small-right{
+        top: 45%;
+        right: -20px;
+    }
+    .small-left {
+        top: 45%;
+        left: -25px;
+    }
+    .titleWrapper {
+
+        width: 400px;
+    }
+}
+
+/*Ipad = 768 x 1024 */
+@media screen and (max-width: 769px) and (min-width: 767px) {
+    .slideInfo p {
+        padding: 0px 20px 50px 40px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .slick-dots {
+        bottom: 10px;
+        left: 40px!important;
+    }
+    .slideInfo h1 {
+        padding: 0px 20px 0px 40px;
+    }
+    .slideInfo1, #carouselHP {
+        min-height: 295px;
+    }
+    .rowModal {
+        height: 400px;
+    }
+	#carouselHP .container, #newsletterHP2 .container { width:100%; padding-left:0; padding-right:0; }
+}
+@media screen and (min-width: 1282px) {
+    .small-left {
+        color: #999999;
+        top: 50%;
+        left: -50px;
+
+    }
+    .small-right {
+        color: #999999;
+        top: 50%;
+        right: -40px;
+        z-index: 1;
+
+    }
+    .fa-stack{
+        top: 50%;
+    }
+    #newsletterInfo p {
+        font-size: 21px;
+        padding: 100px 0px 100px 0px;
+        font-weight: 300;
+    }
+    #moviePlayerHP .timer div.secs {
+        margin-left: 16px;
+    }
+    #moviePlayerHP .timer div.mins {
+        margin-left: 16px;
+    }
+    #moviePlayerHP .timer div.hours {
+        margin-left: 16px;
+    }
+    #moviePlayerHP .timer div.days {
+        margin-left: 16px;
+    }
+    .movieModalTitle {
+        line-height: 30px;
+    }
+    .gridInfo p {
+       line-height: 21px !important;
+    }
+    .p-date{
+        margin-top: 16px !important;
+    }
+}
